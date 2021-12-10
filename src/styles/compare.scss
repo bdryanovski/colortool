@@ -1,0 +1,23 @@
+.compare-container {
+  min-width: 450px;
+}
+
+.colorCompare {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.convertion {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+
+  li {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+}

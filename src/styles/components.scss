@@ -1,0 +1,71 @@
+.icon-btn {
+  cursor: pointer;
+}
+
+.icon {
+  border-radius: 5px;
+  display: inline-block;
+  &:hover {
+    background-color: #111111;
+    color: white;
+  }
+}
+
+.icon-no-hover:hover {
+  background-color: transparent;
+  color: inherit;
+}
+
+.calculatorResultWrapper {
+  padding: 0px;
+  margin-bottom: 0.5rem;
+
+  label {
+    margin-right: 0.5rem;
+  }
+
+  pre {
+    background-color: #0d1821;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin: 0px 0px 10px 0;
+  }
+}
+
+.lineExample {
+  margin-bottom: 1rem;
+  cursor: pointer;
+
+  kbd {
+    width: 180px;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+}
+
+.color100 {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.calculatorColor {
+
+  .color100 {
+    margin-right: 1rem;
+    border: 1px solid #dae4e9;
+  }
+
+  strong {
+    font-weight: 600;
+    width: 40px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
+
+  .list > div {
+    margin-bottom: 7px;
+  }
+}

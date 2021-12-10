@@ -1,0 +1,45 @@
+.number {
+  font-size: 2rem;
+}
+
+.calculatorColor {
+  padding: 5px;
+}
+
+.colorBox50 {
+  text-align: center;
+  width: 80px;
+  height: 70px;
+  display: block;
+  line-height: 70px;
+}
+
+.colorStrip {
+  width: 130px;
+  height: 25px;
+  display: block;
+
+  span {
+    text-align: center;
+    line-height: 25px;
+  }
+}
+
+.colorBox100 {
+  width: 25px;
+  height: 90px;
+  display: block;
+}
+
+.calculator-scale {
+  align-items: center;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.infoBlock {
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+  font-weight: 400;
+}
